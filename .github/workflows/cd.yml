@@ -9,9 +9,6 @@ name: Create and build image and deploy using helm
 on:
   workflow_dispatch:
 
-env:
-  repo: lwplapbs
-  imge: nodejsapp
 
 jobs:
   push_to_registry:
