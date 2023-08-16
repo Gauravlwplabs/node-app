@@ -35,7 +35,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: lwplapbs/nodejsapp:${{ github.run_id }}
+          tags: zubinrich2/nodejsapp:${{ github.run_id }}
 
       - name: Deploy
         uses: bitovi/github-actions-deploy-eks-helm@v1.0.3
